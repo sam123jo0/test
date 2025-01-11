@@ -14,3 +14,6 @@ jobs:
       
     - name: Build Docker image
       run: docker build -t my-image:latest test/.
+
+    - name: Push Docker Image
+      run: docker push sam123jo0/test:1
